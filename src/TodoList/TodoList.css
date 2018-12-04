@@ -1,0 +1,7 @@
+.TodoList{
+    width: 500px;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: darkseagreen;
+}

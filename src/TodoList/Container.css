@@ -1,0 +1,45 @@
+.Elements input[type=text]{
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    color: cadetblue;
+    font-weight: bold;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+.Elements input[type=submit]{
+    margin: 20px 0;
+    border:1px solid darkseagreen;
+    background-color: aqua;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.List{
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+}
+.List li {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    margin: 10px 0;
+}
+.List li:after{
+    content: '';
+    clear:both;
+    display: table;
+}
+.delete-item{
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: indianred;
+    cursor: pointer;
+    float: right;
+}
